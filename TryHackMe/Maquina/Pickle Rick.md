@@ -105,7 +105,7 @@ Procedemos a revisar cada uno de esos archivos haciendo uso del navegador y de `
  - Los demás no nos muestran nada importante
 
 Entonces, ahora tenemos un login, un usuario y creo que una contraseña, procedemos a ingresarlos y efectivamente eran correctos, pero ahora tenemos un... panel de comando?
-![Command Panel](https://drive.google.com/file/d/1UJgAITZOinXfQtmOHhMguCVL89ojtxP6/view?usp=drive_link)
+![Command Panel](images/pr.png)
 
 Hagamos `ls` de toda la vida...
 
